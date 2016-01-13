@@ -84,8 +84,8 @@ Shader "shadertoy/template"
 		
 		float circleWeigth(float2 pos, float2 center, float radius, float antialias)
 		{
-			float d = length(pos - center) - radius;
-			return smoothstep(-antialias, 0, -d);
+			float d = length(pos - center);
+			return smoothstep(0, d, radius);
 		}
 		
 		float lineWeigth(float2 pos, float2 pos1, float2 pos2, float width, float antialias)
@@ -94,8 +94,8 @@ Shader "shadertoy/template"
 			vec2 dir = pos2-pos1; // 直线的方向向量
 			vec2 v = pos-pos1; // 从直线上一点到线外点的向量
 			vec2 c1 = v-dir*(dot(v, dir)/dot(dir, dir));
-			float d = length(c1) - width/2.0;
-			return smoothstep(-antialias, 0, -d);
+			float d = length(c1);
+			return smoothstep(0, d, width/2.0);
 		}
 
         vec4 main(vec2 fragCoord) 

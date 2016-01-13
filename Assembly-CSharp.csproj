@@ -45,22 +45,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\menuItem_Copy.cs" />
      <Compile Include="Assets\shaderToyControl.cs" />
+     <None Include="Assets\shader\shaderToy-Glow.shader" />
      <None Include="Assets\shader\shaderToy-LineCircle.shader" />
      <None Include="Assets\shader\shaderToy-Tetrahedron.shader" />
      <None Include="Assets\shader\shaderToy-BoundHeart.shader" />
      <None Include="Assets\shader\shaderToyTemplate.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>E:/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

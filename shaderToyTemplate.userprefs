@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\shader\shaderToy-BoundHeart.shader">
     <Files>
-      <File FileName="Assets\shader\shaderToy-BoundHeart.shader" Line="76" Column="31" />
+      <File FileName="Assets\shader\shaderToy-BoundHeart.shader" Line="77" Column="33" />
+      <File FileName="Assets\shader\shaderToy-Glow.shader" Line="72" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
